@@ -23,8 +23,8 @@ namespace Laboratorio12 {
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-             "~/Content/bootstrap.min.css", // aquí el cambio
-             "~/Content/site.css"));
+                    "~/Content/bootstrap.min.css", 
+                    "~/Content/site.css"));
         }
     }
 }
